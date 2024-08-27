@@ -221,7 +221,7 @@ exports.getLoanByOrderId = (req, res) => {
         });
 }
 
-// Actualizar un préstamo por ID de orden
+
 exports.updateByOrderId = async (req, res) => {
     try {
         let loanOrderId = req.params.orderid;
