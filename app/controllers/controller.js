@@ -263,7 +263,7 @@ exports.updateByOrderId = async (req, res) => {
     }
 }
 
-// Eliminar un préstamo por ID de orden
+
 exports.deleteByOrderId = async (req, res) => {
     try {
         let loanOrderId = req.params.orderid;
